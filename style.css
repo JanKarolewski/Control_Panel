@@ -1,0 +1,171 @@
+﻿body
+{
+    background-color: #363b3f;
+    font-family: 'Lato', sans-serif;
+}
+ 
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#logo
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+ 
+#menu
+{
+    background-color: #303030;
+    margin-top: 20px;
+    color: #94b998;
+    padding: 10px;
+     
+}
+ 
+#topbar
+{
+    background-color: #37b448;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 100px;
+}
+ 
+#topbarL
+{
+	background-color: gray;
+    float:left;
+    padding: 10px;
+    width: 138px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+ 
+#topbarR
+{	
+    float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align: justify;
+}
+ 
+#sidebar
+{
+    float: left;
+    width: 148px;
+    min-height: 620px;
+    padding:20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+}
+ 
+#content
+{
+    float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    min-height: 580px;
+    text-align: center;
+}
+
+#contentL
+{
+    float: left;
+    padding: 0px;
+    width: 100px;
+    background-color: #dedede;
+    min-height: 30px;
+    text-align: justify;
+}
+ 
+ #contentR
+{
+    float: left;
+    padding: 0px;
+    width: 100px;
+    background-color: #dedede;
+    min-height: 30px;
+    text-align: justify;
+}
+
+ #camera
+{
+    float: left;
+    padding: 0px;
+    width: 300px;
+	height: 300px;
+    min-height: 30px;
+    text-align: center;
+}
+
+
+iframe#embed
+{
+    width:55px;       
+    height:55px;     
+    overflow:hidden;
+	text-align: center;
+	font-size: 150px;
+
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+	border:none
+}
+ 
+ 
+#footer
+{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+  
+.buttonL
+{
+    border: none;
+	color: Brown;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	padding: 10px 24px;
+    border-bottom: 2px 	dashed #444444;
+}
+ 
+.buttonL:hover
+{
+    background-color: #f36742;
+    color: white;
+    cursor: pointer;
+}
+ 
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+ 
+.dottedline
+{
+    height: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #444444;
+}

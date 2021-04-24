@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="refresh" content="7">
+    <title>Panel Kontrolny</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+ 
+<body>
+
+<script>
+var reimg
+	window.onload=function () {
+	  reimg=document.getElementById('image')
+	  setInterval(function () {
+		reimg.src=reimg.src.replace(/\?.*/,function () {
+		  return '?'+new Date()
+		})
+	  },1000)
+	}
+</script> 
+     
+    <div id="container">
+     
+        <div id="logo">
+            Panel kontroli
+        </div>
+		 
+        <div id="topbar">
+            <div id="topbarL">
+                <img src="Icon.png" />
+            </div>
+            <div id="topbarR">
+                <span class="bigtitle">Kontrola pomieszczenia</span>
+                <div style="height: 15px;"></div>
+					Panel zapewniający kontrolę temperatury w pomieszczeniach            
+			</div>
+            <div style="clear:both;"></div>
+        </div>
+         
+        <div id="sidebar">
+		
+            <div> <a href="index.html" class="buttonL">Strona główna </a> </div>
+            <div> <a href="index_control.html" class="buttonL">Kontrola </a> </div>
+            <div> <a href="thanks.html" class="buttonL">Podziękowania  </a> </div>
+            <div> <a href="about.html" class="buttonL">O projekcie  </a> </div>
+		</div>
+         
+        <div id="content">
+            <span class="bigtitle">Panel Kontrolny</span>
+             
+            <div class="dottedline"></div>
+				
+			
+				<div id="contentL">
+					temperatura czajnika:             
+				</div>
+
+				<div id="contentR">
+					<iframe id="embed" src="temperatura_1.txt"></iframe>           
+				</div>
+				<div style="clear:both;"></div>
+				<div id="contentL">
+					temperatura kuchenki:              
+				</div>
+				
+				<div id="contentR">
+					<iframe id="embed" src="temperatura_1.txt"></iframe>           
+				</div>
+				<div style="clear:both;"></div>
+				
+				<div id="contentL">
+					Kontaktron:              
+				</div>
+				
+				<div id="contentR">
+					<iframe id="embed" src="door.txt"></iframe>           
+				</div>
+				<div style="clear:both;"></div>
+				
+				<div id="camera">
+					        Obraz Kamery 
+				<img src="oven.jpg?" id="image" width="250" height="250">
+				</div>
+		</div>    
+         
+        <div id="footer">
+			Opracował Jan Karolewski na potrzeby pracy inżynierskiej &copy; styczeń; 2021
+        </div>
+     
+    </div>
+     
+</body>
+</html>
