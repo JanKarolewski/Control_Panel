@@ -28,6 +28,7 @@ Image recognition preview
 
 ![image](https://github.com/user-attachments/assets/fa988c25-94e6-43ee-900c-e326c0e6e65f)
 
+<br>
 
-Device connections:
+Device connections: <br>
 ![image](https://github.com/user-attachments/assets/a1241748-a24d-41ac-a6fd-a80f3d552d76)
