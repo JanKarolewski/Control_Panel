@@ -1,4 +1,4 @@
-<p>The project was made using RaspberryPi 3. The task was to provide the user with information about the temperature of household appliances, fire hazard and door closing. </p>
+<p>Project was made using RaspberryPi 3. The task was to provide the user with information about the temperature of household appliances, fire hazard and door closing. </p>
 Used to complete the project:</br>
 Hardwear
 <ul> 
